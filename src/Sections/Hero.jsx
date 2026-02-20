@@ -1,5 +1,7 @@
 import React from 'react'
 import { words } from '../constants'
+import Button from '../Components/Button'
+import HeroExperiance from '../Components/HeroModels/HeroExperiance'
 
 
 
@@ -36,11 +38,21 @@ const Hero = () => {
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
                             I'm a Fullstack Developer based in India, passionate about building fast, scalable, and beautiful web applications — from pixel-perfect frontends to robust backend systems.
                         </p>
-
+                        <Button
+                            className="md:w-80 md:h-16 w-60 h-12"
+                            id="button"
+                            text="See my work"
+                        />
                     </div>
 
                 </header>
                 {/* right side 3d model */}
+                <figure>
+                    <div className='hero-3d-layout'>
+                        <HeroExperiance />
+
+                    </div>
+                </figure>
             </div>
 
         </section>
