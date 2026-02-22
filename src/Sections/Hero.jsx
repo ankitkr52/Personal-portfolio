@@ -2,10 +2,20 @@ import React from 'react'
 import { words } from '../constants'
 import Button from '../Components/Button'
 import HeroExperiance from '../Components/HeroModels/HeroExperiance'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import AnimatedCounter from '../Components/HeroModels/AnimatedCounter'
 
 
 
 const Hero = () => {
+    useGSAP(() => {
+        gsap.fromTo(
+            ".hero-text h1",
+            { y: 50, opacity: 0 },
+            { y: 0, opacity: 1, stagger: 0.2, duration: 2, ease: "power2.inOut" }
+        );
+    });
     return (
         <section id='hero' className='relative overflow-hidden'>
             <div className='absolute top-0 left-0 z-10'>
@@ -36,7 +46,7 @@ const Hero = () => {
                             <h1>that deliver result</h1>
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                            I'm a Fullstack Developer based in India, passionate about building fast, scalable, and beautiful web applications — from pixel-perfect frontends to robust backend systems.
+                            I'm a Fullstack Developer based in India, passionate about building fast, scalable,<br /> and beautiful web applications — from pixel-perfect frontends to robust backend systems.
                         </p>
                         <Button
                             className="md:w-80 md:h-16 w-60 h-12"
@@ -54,6 +64,7 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
+            <AnimatedCounter />
 
         </section>
     )
