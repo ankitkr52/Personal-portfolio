@@ -147,42 +147,113 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "Ankit transformed our bakery website - we now get 3x more online orders! Professional, fast, and always responsive.",
+    imgPath: "/images/client-bakery.png",
+    logopath: "/images/bakery-logo.png",
+    clientName: "Sarah Johnson",
+    company: "Sweet Delights Bakery",
+    title: "Full-Stack Developer",
+    date: "Dec 2023 - Jan 2024",
+    impact: "300% increase in orders",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built conversion-optimized landing page with custom order system",
+      "Implemented smooth animations and mobile-responsive design",
+      "Delivered 2 weeks early with zero bugs post-launch"
     ],
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind", "Stripe"]
   },
+  
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "Delivered a stunning e-commerce platform that our customers love. Great communication and reliable delivery!",
+    imgPath: "/images/client-ecommerce.png",
+    logopath: "/images/shop-logo.png",
+    clientName: "Rahul Sharma",
+    company: "Fashion Hub India",
+    title: "E-Commerce Developer",
+    date: "Sep 2023 - Nov 2023",
+    impact: "₹2L+ monthly revenue",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built complete e-commerce with 200+ products and secure checkout",
+      "Integrated Razorpay payment gateway and admin dashboard",
+      "500+ orders processed successfully since launch"
     ],
+    technologies: ["React", "Express", "MongoDB", "Razorpay", "Cloudinary"]
   },
+  
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Exceptional skills with clean code and modern practices. Built diverse portfolio demonstrating production-ready quality.",
+    imgPath: "/images/personal-work.png",
+    logopath: "/images/dev-logo.png",
+    clientName: "Portfolio Projects",
+    company: "Self-Driven Work",
+    title: "MERN Stack Developer",
+    date: "Jan 2023 - Present",
+    impact: "15+ live applications",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed full-stack apps: SaaS dashboard, social media, booking system",
+      "Implemented real-time chat, payments, authentication, file uploads",
+      "All projects deployed with 95+ performance scores"
     ],
+    technologies: ["MongoDB", "Express", "React", "Node.js", "Socket.io", "JWT"]
   },
+  
+  {
+    review: "Quick learner with strong foundation. Completed intensive training while building real-world projects.",
+    imgPath: "/images/learning.png",
+    logopath: "/images/education-logo.png",
+    clientName: "Skill Development",
+    company: "Web Development Training",
+    title: "MERN Stack Certification",
+    date: "Jan 2023 - Jun 2023",
+    impact: "500+ hours training",
+    responsibilities: [
+      "Completed full-stack bootcamp with 20+ practice projects",
+      "Learned best practices: testing, CI/CD, security, optimization",
+      "Contributed to open-source projects on GitHub"
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Git"]
+  }
 ];
+
+export default expCards;
+// const expCards = [
+//   {
+//     review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+//     imgPath: "/images/exp1.png",
+//     logoPath: "/images/logo1.png",
+//     title: "Frontend Developer",
+//     date: "January 2023 - Present",
+//     responsibilities: [
+//       "Developed and maintained user-facing features for the Hostinger website.",
+//       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+//       "Optimized web applications for maximum speed and scalability.",
+//     ],
+//   },
+//   {
+//     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+//     imgPath: "/images/exp2.png",
+//     logoPath: "/images/logo2.png",
+//     title: "Full Stack Developer",
+//     date: "June 2020 - December 2023",
+//     responsibilities: [
+//       "Led the development of Docker's web applications, focusing on scalability.",
+//       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
+//       "Contributed to open-source projects that were used with the Docker ecosystem.",
+//     ],
+//   },
+//   {
+//     review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+//     imgPath: "/images/exp3.png",
+//     logoPath: "/images/logo3.png",
+//     title: "React Native Developer",
+//     date: "March 2019 - May 2020",
+//     responsibilities: [
+//       "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+//       "Improved app performance and user experience through code optimization and testing.",
+//       "Coordinated with the product team to implement features based on feedback.",
+//     ],
+//   },
+// ];
 
 const expLogos = [
   {

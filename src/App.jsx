@@ -4,15 +4,17 @@ import ShowcaseSection from './Sections/ShowcaseSection'
 import Navbar from './Components/Navbar'
 import LogoSection from './Sections/LogoSection'
 import FeaturesCard from './Sections/FeaturesCard'
+import ExperianceSection from './Sections/ExperianceSection'
 
 const App = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <Hero />
       <ShowcaseSection />
-      <LogoSection/>
-      <FeaturesCard/>
+      <LogoSection />
+      <FeaturesCard />
+      <ExperianceSection />
     </>
   )
 }
