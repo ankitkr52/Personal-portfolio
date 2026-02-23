@@ -49,14 +49,14 @@ const ShowcaseSection = () => {
                 <div className='showcaselayout'>
                     {/* left */}
                     <div className='first-project-wrapper' ref={rydeRef}>
-                        <div>
-                            <img src="/images/project1.png" alt="ryde" />
+                        <div className='relative overflow-hidden rounded-xl h-105 md:h-[600px] xl:h-[600px]'>
+                            <img src="/images/project1.jpg" alt="ryde" />
 
                         </div>
                         <div className='text-content'>
                             <h2>
-                                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                called Ryde
+                                A deliciously designed landing page that brings the warmth of
+                                a local bakery to the digital world. Features include:
                             </h2>
                             <p className='text-white-50 md:xl'>
                                 An app built with React-native,Expo,& Tailwindcss for a fast, user-friendly experiance

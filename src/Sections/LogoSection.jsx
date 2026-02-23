@@ -1,6 +1,6 @@
 import React from 'react'
 import { logoIconsList } from '../constants'
-import { div } from 'three/tsl'
+
 
 const LogoIcon = ({ icon }) => {
   return (
@@ -10,23 +10,23 @@ const LogoIcon = ({ icon }) => {
   );
 };
 
-const LogoSection = () => {
-    return (
-        <div className='md:my-10 my-5 relative'>
-            <div className='gradient-edge' />
-            <div className='gradient-edge' />
-            <div className='marquee h-52 '>
-                <div className='marquee-box md:gap-5'>
-                    {logoIconsList.map((icon) => (
-                        <LogoIcon key={icon.name} icon={icon} />
-                    ))}
+const LogoSection = () => (
+  <div className="md:my-10 my-10 relative">
+    <div className="gradient-edge" />
+    <div className="gradient-edge" />
 
-                </div>
+    <div className="marquee h-52">
+      <div className="marquee-box md:gap-12 gap-5">
+        {logoIconsList.map((icon, index) => (
+          <LogoIcon key={index} icon={icon} />
+        ))}
 
-            </div>
+        {logoIconsList.map((icon, index) => (
+          <LogoIcon key={index} icon={icon} />
+        ))}
+      </div>
+    </div>
+  </div>
+);
 
-        </div>
-    )
-}
-
-export default LogoSection
+    export default LogoSection
